@@ -3,9 +3,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "one" {
-  ami           = "ami-00f251754ac5da7f0"
+  ami           = "ami-0fff1b9a61dec8a5f"
   instance_type = "t2.micro"
-  key_name      = "bleach"
 
   tags = {
     Name = "dev-instance"
